@@ -29,7 +29,7 @@ interface RoleInterface
      *
      * @return int
      */
-    public function getRoleId(): int;
+    public function getRoleId();
 
     /**
      * Returns the role's slug.

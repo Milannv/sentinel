@@ -91,7 +91,7 @@ class EloquentRole extends Model implements PermissibleInterface, RoleInterface
     /**
      * {@inheritdoc}
      */
-    public function getRoleId(): int
+    public function getRoleId()
     {
         return $this->getKey();
     }
